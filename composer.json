@@ -1,0 +1,26 @@
+{
+    "name": "skysports/php-oop-unit-testing-tech-test",
+    "require": {
+        "phpunit/phpunit": "~4.6",
+        "mockery/mockery": "0.9.*"
+    },
+    "authors": [
+        {
+            "name": "Bell, Christopher Anthony",
+            "email": "christopher.bell2@sky.uk"
+        },
+        {
+            "name": "Quigley, Brendan",
+            "email": "brendan.quigley@sky.uk"
+        },
+        {
+          "name": "Patel, Himanshu",
+          "email": "hp4137@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SSDMTechTest\\": "src/"
+        }
+    }
+}
